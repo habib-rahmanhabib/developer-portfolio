@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* nabigation bar */
+.header{
+    background: #FFF8F3;
+    background-image: url('/portfolio-resources/images/header_bg.png'),
+     url(/portfolio-resources/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.nav-title{
+    margin: 51px 226px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+     display: flex;
+     align-items: center;
+}
+nav ul li{
+       list-style: none;
+       margin-right: 50px;
+}
+.habib{
+    font-weight: 800;
+     font-size: 45px;
+}
+.bolt{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    padding: 18px 36px;
+    border: none;
+    
+      background: #FD6E0A;
+       border-radius: 5px;
+       cursor: pointer;
+}
+/* banner */
+.banner{
+    display: flex;
+    margin: 0 226px;
+    align-items: center;
+}
+.habib{
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-peragrape{
+    display: block;
+    font-weight: 400;
+     font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 71px; 
+}
+.call{
+    margin-top: 71px;
+    margin-bottom: 30px;
+}
+.sellphone{
+    background-color: rgb(128, 156, 156);
+    margin-left: 15px;
+}
+/* main style */
+
+main{
+    
+    margin: 20px 230px;
+}
+/* about */
+.about{
+    padding: 80px 100px;
+    text-align: center;
+    background: #FFF8F3;
+   
+}
+
+.section-title{
+    margin-inline: auto;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    font-weight: 400;
+     font-size: 18px;
+     padding-block:30px;
+     text-align: justify;
+}
+.about-info-container{ 
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-info-drescriptio{
+    font-weight: 700;
+     font-size: 20px;
+}
+/* what i do */
+.what-i-do-container{
+    margin-bottom: 130px;
+   
+}
+.what-i-do{
+    display: block;
+    text-align: center;
+    margin-block: 130px;
+}
+.what-i-do-description{
+    display: block;
+    font-weight: 700;
+    font-size: 18;
+
+}
+/* skill drescription */
+
+.skill-details{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.image{
+    padding-block: 30px;
+}
+.skill-icon{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-right: 8px;
+    padding-left: 15px;
+
+}
+.skill-name{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+.skill-description{
+    padding-bottom: 30px;
+    text-align: justify;
+
+}
+/* resumary summae=ry */
+.resumy-container{
+
+}
+.from{
+    text-align: center;
+    padding-bottom: 113px;
+}
+
+/* resumy form */
+.form-container{
+    display: flex;
+    gap:24px;
+
+}
+
+.form{
+    
+
+}
+.gap{
+    /* margin-right: 30px; */
+}
+.form-name{
+ padding-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+
+}
+.form-title{
+    font-weight: 700;
+   font-size: 25px;
+   padding-bottom: 10px;
+}
+.form-time{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.form-drescription{
+    padding-bottom: 30px;
+
+}
+/* summary btn */
+.cv{
+    text-align: center;
+}
+footer{
+    background: #FFF8F3;
+
+}
+.footer{
+    margin:0 226px;
+    display: flex;
+    padding-block: 50px;
+    gap: 30px;
+
+}
+.lets-connect-title{
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.lets-connect-description{
+    padding-bottom: 30px;
+}
+footer ul{
+    display: flex;
+    gap: 6px;
+}
+footer ul li{
+    list-style: none;
+}
+.message-me input, textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+    padding-block: 10px;
+}
